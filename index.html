@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Auto Translate Example</title>
-  <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://translate.google.com https://translate.googleapis.com; 'unsafe-inline'">
-  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'sha256-fM2hVMg1eCsc38dcegFpHJ6ljHTd4QFzTLacQOS7hjM='">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://translate.google.com https://translate.googleapis.com 'sha256-fM2hVMg1eCsc38dcegFpHJ6ljHTd4QFzTLacQOS7hjM=' 'nonce-...'">
   <script type="text/javascript" nonce="nonce-..." src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <script type="text/javascript" nonce="nonce-...">
     function googleTranslateElementInit() {
@@ -19,4 +18,5 @@
   </div>
 </body>
 </html>
+
 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Translate Example</title>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'content');
+    }
+  </script>
+</head>
+<body onload="googleTranslateElementInit()">
+  <div id="content">
+    <h1>Hello World!</h1>
+    <p>This is some sample text that will be automatically translated.</p>
+  </div>
+</body>
+</html>
